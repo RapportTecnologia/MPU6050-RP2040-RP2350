@@ -76,28 +76,28 @@ $(function() {
 </div><!--header-->
 <div class="contents">
 
-<p>Exemplo de uso do driver <code><a class="el" href="classMPU6050.html" title="Classe que encapsula o acesso ao sensor MPU6050 via I2C.">MPU6050</a></code> com o proxy <code><a class="el" href="classI2C.html">I2C</a></code>.  
+<p>Exemplo de uso do driver <code><a class="el" href="classMPU6050.html" title="Classe que encapsula o acesso ao sensor MPU6050 via I2C.">MPU6050</a></code> com o proxy <code>I2C</code>.  
 <a href="#details">More...</a></p>
 <div class="textblock"><code>#include &lt;stdio.h&gt;</code><br />
 <code>#include &lt;stdlib.h&gt;</code><br />
 <code>#include &lt;math.h&gt;</code><br />
 <code>#include &quot;pico/stdlib.h&quot;</code><br />
-<code>#include &quot;<a class="el" href="I2C_8h_source.html">I2C.h</a>&quot;</code><br />
+<code>#include &quot;I2C.h&quot;</code><br />
 <code>#include &quot;<a class="el" href="MPU6050_8h_source.html">MPU6050.h</a>&quot;</code><br />
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="define-members" name="define-members"></a>
 Macros</h2></td></tr>
 <tr class="memitem:ae9f2fc3817b4830b2ac6f35e21532d76" id="r_ae9f2fc3817b4830b2ac6f35e21532d76"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="main_8cpp.html#ae9f2fc3817b4830b2ac6f35e21532d76">I2C_ID</a>&#160;&#160;&#160;i2c0</td></tr>
-<tr class="memdesc:ae9f2fc3817b4830b2ac6f35e21532d76"><td class="mdescLeft">&#160;</td><td class="mdescRight">Instância de hardware <a class="el" href="classI2C.html">I2C</a> utilizada (i2c0).  <br /></td></tr>
+<tr class="memdesc:ae9f2fc3817b4830b2ac6f35e21532d76"><td class="mdescLeft">&#160;</td><td class="mdescRight">Instância de hardware I2C utilizada (i2c0).  <br /></td></tr>
 <tr class="separator:ae9f2fc3817b4830b2ac6f35e21532d76"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0e4e08bab2fb484136d18b067bef372c" id="r_a0e4e08bab2fb484136d18b067bef372c"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="main_8cpp.html#a0e4e08bab2fb484136d18b067bef372c">I2C_SCL_PIN</a>&#160;&#160;&#160;0</td></tr>
-<tr class="memdesc:a0e4e08bab2fb484136d18b067bef372c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Pino SCL do barramento <a class="el" href="classI2C.html">I2C</a>.  <br /></td></tr>
+<tr class="memdesc:a0e4e08bab2fb484136d18b067bef372c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Pino SCL do barramento I2C.  <br /></td></tr>
 <tr class="separator:a0e4e08bab2fb484136d18b067bef372c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2cade698267beb86ccaa38c14d35ab0f" id="r_a2cade698267beb86ccaa38c14d35ab0f"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="main_8cpp.html#a2cade698267beb86ccaa38c14d35ab0f">I2C_SDA_PIN</a>&#160;&#160;&#160;1</td></tr>
-<tr class="memdesc:a2cade698267beb86ccaa38c14d35ab0f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Pino SDA do barramento <a class="el" href="classI2C.html">I2C</a>.  <br /></td></tr>
+<tr class="memdesc:a2cade698267beb86ccaa38c14d35ab0f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Pino SDA do barramento I2C.  <br /></td></tr>
 <tr class="separator:a2cade698267beb86ccaa38c14d35ab0f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad4455691936f92fdd6c37566fc58ba1f" id="r_ad4455691936f92fdd6c37566fc58ba1f"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="main_8cpp.html#ad4455691936f92fdd6c37566fc58ba1f">BAUD_RATE</a>&#160;&#160;&#160;400000</td></tr>
-<tr class="memdesc:ad4455691936f92fdd6c37566fc58ba1f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Frequência do barramento <a class="el" href="classI2C.html">I2C</a> em Hz (400kHz).  <br /></td></tr>
+<tr class="memdesc:ad4455691936f92fdd6c37566fc58ba1f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Frequência do barramento I2C em Hz (400kHz).  <br /></td></tr>
 <tr class="separator:ad4455691936f92fdd6c37566fc58ba1f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
@@ -107,8 +107,8 @@ Functions</h2></td></tr>
 <tr class="separator:ae66f6b31b5ad750f1fe042a706a4e3d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>Exemplo de uso do driver <code><a class="el" href="classMPU6050.html" title="Classe que encapsula o acesso ao sensor MPU6050 via I2C.">MPU6050</a></code> com o proxy <code><a class="el" href="classI2C.html">I2C</a></code>. </p>
-<p>Demonstra a inicialização do <a class="el" href="classI2C.html">I2C</a>, configuração do sensor e leitura periódica de aceleração, giroscópio e temperatura, com impressão via USB-CDC. </p>
+<div class="textblock"><p>Exemplo de uso do driver <code><a class="el" href="classMPU6050.html" title="Classe que encapsula o acesso ao sensor MPU6050 via I2C.">MPU6050</a></code> com o proxy <code>I2C</code>. </p>
+<p>Demonstra a inicialização do I2C, configuração do sensor e leitura periódica de aceleração, giroscópio e temperatura, com impressão via USB-CDC. </p>
 </div><h2 class="groupheader">Macro Definition Documentation</h2>
 <a id="ad4455691936f92fdd6c37566fc58ba1f" name="ad4455691936f92fdd6c37566fc58ba1f"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ad4455691936f92fdd6c37566fc58ba1f">&#9670;&#160;</a></span>BAUD_RATE</h2>
@@ -122,7 +122,7 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Frequência do barramento <a class="el" href="classI2C.html">I2C</a> em Hz (400kHz). </p>
+<p>Frequência do barramento I2C em Hz (400kHz). </p>
 
 </div>
 </div>
@@ -138,7 +138,7 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Instância de hardware <a class="el" href="classI2C.html">I2C</a> utilizada (i2c0). </p>
+<p>Instância de hardware I2C utilizada (i2c0). </p>
 
 </div>
 </div>
@@ -154,7 +154,7 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Pino SCL do barramento <a class="el" href="classI2C.html">I2C</a>. </p>
+<p>Pino SCL do barramento I2C. </p>
 
 </div>
 </div>
@@ -170,7 +170,7 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Pino SDA do barramento <a class="el" href="classI2C.html">I2C</a>. </p>
+<p>Pino SDA do barramento I2C. </p>
 
 </div>
 </div>
@@ -192,7 +192,7 @@ Functions</h2></td></tr>
 
 <p>Ponto de entrada do exemplo. </p>
 <ul>
-<li>Inicializa stdio e <a class="el" href="classI2C.html">I2C</a></li>
+<li>Inicializa stdio e I2C</li>
 <li>Instancia e inicia o driver do <a class="el" href="classMPU6050.html" title="Classe que encapsula o acesso ao sensor MPU6050 via I2C.">MPU6050</a></li>
 <li>Lê e imprime dados a cada 2 segundos </li>
 </ul>

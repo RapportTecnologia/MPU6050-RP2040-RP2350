@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['raw_0',['raw',['../classMPU6050.html#a0b2a5f1c30fa9a1ad389df9db52e7edf',1,'MPU6050']]]
+  ['sig_5fpath_5freset_0',['SIG_PATH_RESET',['../classMPU6050.html#af4b546169accbce0eec5184722dd3fb6',1,'MPU6050']]],
+  ['smplrt_5fdiv_1',['SMPLRT_DIV',['../classMPU6050.html#a75f7232c0065e3c841c1b3b1594de564',1,'MPU6050']]]
 ];

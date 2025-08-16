@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['mpu6050_0',['MPU6050',['../classMPU6050.html',1,'']]]
+  ['vect_5f3d_0',['VECT_3D',['../structMPU6050_1_1VECT__3D.html',1,'MPU6050']]]
 ];

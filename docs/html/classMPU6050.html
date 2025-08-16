@@ -81,7 +81,7 @@ $(function() {
 </div><!--header-->
 <div class="contents">
 
-<p>Classe que encapsula o acesso ao sensor <a class="el" href="classMPU6050.html" title="Classe que encapsula o acesso ao sensor MPU6050 via I2C.">MPU6050</a> via <a class="el" href="classI2C.html">I2C</a>.  
+<p>Classe que encapsula o acesso ao sensor <a class="el" href="classMPU6050.html" title="Classe que encapsula o acesso ao sensor MPU6050 via I2C.">MPU6050</a> via I2C.  
  <a href="classMPU6050.html#details">More...</a></p>
 
 <p><code>#include &lt;<a class="el" href="MPU6050_8h_source.html">MPU6050.h</a>&gt;</code></p>
@@ -94,7 +94,7 @@ Classes</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:ab9eaa58bc4f33ea9d0d6a0b32c05c6e6" id="r_ab9eaa58bc4f33ea9d0d6a0b32c05c6e6"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMPU6050.html#ab9eaa58bc4f33ea9d0d6a0b32c05c6e6">MPU6050</a> (<a class="el" href="classI2C.html">I2C</a> *<a class="el" href="classMPU6050.html#a24ec050421b093e4e945923c9eccd237">i2c</a>, uint8_t <a class="el" href="classMPU6050.html#ac1db93afeef27f8dd7d21bb5a068ea24">addr</a>=<a class="el" href="classMPU6050.html#a2604c81a87a29e6070ff25114a3e8f92">MPU6050::I2C_ADDR</a>)</td></tr>
+<tr class="memitem:ab9eaa58bc4f33ea9d0d6a0b32c05c6e6" id="r_ab9eaa58bc4f33ea9d0d6a0b32c05c6e6"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMPU6050.html#ab9eaa58bc4f33ea9d0d6a0b32c05c6e6">MPU6050</a> (I2C *<a class="el" href="classMPU6050.html#a24ec050421b093e4e945923c9eccd237">i2c</a>, uint8_t <a class="el" href="classMPU6050.html#ac1db93afeef27f8dd7d21bb5a068ea24">addr</a>=<a class="el" href="classMPU6050.html#a2604c81a87a29e6070ff25114a3e8f92">MPU6050::I2C_ADDR</a>)</td></tr>
 <tr class="memdesc:ab9eaa58bc4f33ea9d0d6a0b32c05c6e6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construtor do driver.  <br /></td></tr>
 <tr class="separator:ab9eaa58bc4f33ea9d0d6a0b32c05c6e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aebeb4a3b38faee9aba8f011d33165a17" id="r_aebeb4a3b38faee9aba8f011d33165a17"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMPU6050.html#aebeb4a3b38faee9aba8f011d33165a17">begin</a> (void)</td></tr>
@@ -119,7 +119,7 @@ Public Member Functions</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-attribs" name="pub-static-attribs"></a>
 Static Public Attributes</h2></td></tr>
 <tr class="memitem:a2604c81a87a29e6070ff25114a3e8f92" id="r_a2604c81a87a29e6070ff25114a3e8f92"><td class="memItemLeft" align="right" valign="top">static const uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMPU6050.html#a2604c81a87a29e6070ff25114a3e8f92">I2C_ADDR</a> = 0x68</td></tr>
-<tr class="memdesc:a2604c81a87a29e6070ff25114a3e8f92"><td class="mdescLeft">&#160;</td><td class="mdescRight">Endereço <a class="el" href="classI2C.html">I2C</a> padrão do <a class="el" href="classMPU6050.html" title="Classe que encapsula o acesso ao sensor MPU6050 via I2C.">MPU6050</a> quando AD0=0.  <br /></td></tr>
+<tr class="memdesc:a2604c81a87a29e6070ff25114a3e8f92"><td class="mdescLeft">&#160;</td><td class="mdescRight">Endereço I2C padrão do <a class="el" href="classMPU6050.html" title="Classe que encapsula o acesso ao sensor MPU6050 via I2C.">MPU6050</a> quando AD0=0.  <br /></td></tr>
 <tr class="separator:a2604c81a87a29e6070ff25114a3e8f92"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2db376463de3c167d29ff2c6f0379005" id="r_a2db376463de3c167d29ff2c6f0379005"><td class="memItemLeft" align="right" valign="top">static const uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMPU6050.html#a2db376463de3c167d29ff2c6f0379005">ID</a> = 0x68</td></tr>
 <tr class="memdesc:a2db376463de3c167d29ff2c6f0379005"><td class="mdescLeft">&#160;</td><td class="mdescRight">Valor esperado do registrador WHO_AM_I.  <br /></td></tr>
@@ -139,7 +139,7 @@ Private Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
-<tr class="memitem:a24ec050421b093e4e945923c9eccd237" id="r_a24ec050421b093e4e945923c9eccd237"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classI2C.html">I2C</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMPU6050.html#a24ec050421b093e4e945923c9eccd237">i2c</a></td></tr>
+<tr class="memitem:a24ec050421b093e4e945923c9eccd237" id="r_a24ec050421b093e4e945923c9eccd237"><td class="memItemLeft" align="right" valign="top">I2C *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMPU6050.html#a24ec050421b093e4e945923c9eccd237">i2c</a></td></tr>
 <tr class="separator:a24ec050421b093e4e945923c9eccd237"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac1db93afeef27f8dd7d21bb5a068ea24" id="r_ac1db93afeef27f8dd7d21bb5a068ea24"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMPU6050.html#ac1db93afeef27f8dd7d21bb5a068ea24">addr</a></td></tr>
 <tr class="separator:ac1db93afeef27f8dd7d21bb5a068ea24"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -174,7 +174,7 @@ Static Private Attributes</h2></td></tr>
 <tr class="separator:a9cf9600328839a6ecb9eb23abd937ecb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>Classe que encapsula o acesso ao sensor <a class="el" href="classMPU6050.html" title="Classe que encapsula o acesso ao sensor MPU6050 via I2C.">MPU6050</a> via <a class="el" href="classI2C.html">I2C</a>. </p>
+<div class="textblock"><p>Classe que encapsula o acesso ao sensor <a class="el" href="classMPU6050.html" title="Classe que encapsula o acesso ao sensor MPU6050 via I2C.">MPU6050</a> via I2C. </p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="ab9eaa58bc4f33ea9d0d6a0b32c05c6e6" name="ab9eaa58bc4f33ea9d0d6a0b32c05c6e6"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ab9eaa58bc4f33ea9d0d6a0b32c05c6e6">&#9670;&#160;</a></span>MPU6050()</h2>
@@ -185,7 +185,7 @@ Static Private Attributes</h2></td></tr>
         <tr>
           <td class="memname">MPU6050::MPU6050 </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="classI2C.html">I2C</a> *&#160;</td>
+          <td class="paramtype">I2C *&#160;</td>
           <td class="paramname"><em>i2c</em>, </td>
         </tr>
         <tr>
@@ -203,13 +203,13 @@ Static Private Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Construtor do driver. </p>
-<p>Construtor: armazena ponteiro para o proxy <a class="el" href="classI2C.html">I2C</a> e endereço.</p>
+<p>Construtor: armazena ponteiro para o proxy I2C e endereço.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">i2c</td><td>Ponteiro para a instância do proxy <a class="el" href="classI2C.html">I2C</a>. </td></tr>
-    <tr><td class="paramname">addr</td><td>Endereço <a class="el" href="classI2C.html">I2C</a> do dispositivo (padrão: 0x68).</td></tr>
-    <tr><td class="paramname">i2c</td><td>Ponteiro para a interface <a class="el" href="classI2C.html">I2C</a> a ser utilizada. </td></tr>
-    <tr><td class="paramname">addr</td><td>Endereço <a class="el" href="classI2C.html">I2C</a> do dispositivo. </td></tr>
+    <tr><td class="paramname">i2c</td><td>Ponteiro para a instância do proxy I2C. </td></tr>
+    <tr><td class="paramname">addr</td><td>Endereço I2C do dispositivo (padrão: 0x68).</td></tr>
+    <tr><td class="paramname">i2c</td><td>Ponteiro para a interface I2C a ser utilizada. </td></tr>
+    <tr><td class="paramname">addr</td><td>Endereço I2C do dispositivo. </td></tr>
   </table>
   </dd>
 </dl>
@@ -555,7 +555,7 @@ Static Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Endereço <a class="el" href="classI2C.html">I2C</a> atual do dispositivo. </p>
+<p>Endereço I2C atual do dispositivo. </p>
 
 </div>
 </div>
@@ -635,7 +635,7 @@ Static Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classI2C.html">I2C</a>* MPU6050::i2c</td>
+          <td class="memname">I2C* MPU6050::i2c</td>
         </tr>
       </table>
   </td>
@@ -644,7 +644,7 @@ Static Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Ponteiro para o proxy <a class="el" href="classI2C.html">I2C</a>. </p>
+<p>Ponteiro para o proxy I2C. </p>
 
 </div>
 </div>
@@ -668,7 +668,7 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Endereço <a class="el" href="classI2C.html">I2C</a> padrão do <a class="el" href="classMPU6050.html" title="Classe que encapsula o acesso ao sensor MPU6050 via I2C.">MPU6050</a> quando AD0=0. </p>
+<p>Endereço I2C padrão do <a class="el" href="classMPU6050.html" title="Classe que encapsula o acesso ao sensor MPU6050 via I2C.">MPU6050</a> quando AD0=0. </p>
 
 </div>
 </div>

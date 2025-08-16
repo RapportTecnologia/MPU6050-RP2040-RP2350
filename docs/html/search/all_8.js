@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['pwr_5fmgmt_5f1_0',['PWR_MGMT_1',['../classMPU6050.html#ab25be5136c64bc4085b365601ebe3823',1,'MPU6050']]],
-  ['pwr_5fmgmt_5f2_1',['PWR_MGMT_2',['../classMPU6050.html#a3c44a46e7896b18ac5499db1ce990432',1,'MPU6050']]]
+  ['sig_5fpath_5freset_0',['SIG_PATH_RESET',['../classMPU6050.html#af4b546169accbce0eec5184722dd3fb6',1,'MPU6050']]],
+  ['smplrt_5fdiv_1',['SMPLRT_DIV',['../classMPU6050.html#a75f7232c0065e3c841c1b3b1594de564',1,'MPU6050']]]
 ];

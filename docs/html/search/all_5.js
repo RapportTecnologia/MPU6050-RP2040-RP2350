@@ -1,9 +1,8 @@
 var searchData=
 [
-  ['getaccelleration_0',['getAccelleration',['../classMPU6050.html#a74b7f69a847c53b0092911d907de8790',1,'MPU6050']]],
-  ['getgyroscope_1',['getGyroscope',['../classMPU6050.html#a002ff08a30fc3ec86ded844f90077b10',1,'MPU6050']]],
-  ['getid_2',['getId',['../classMPU6050.html#a37d2e760e606911620f8e2af06c881c9',1,'MPU6050']]],
-  ['gettemp_3',['getTemp',['../classMPU6050.html#a461efabbf6022dd3d4a8f1483a4a0bdc',1,'MPU6050']]],
-  ['gyro_5fconfig_4',['GYRO_CONFIG',['../classMPU6050.html#afb8bbc9b5e7dcbdd96cce872747e4d95',1,'MPU6050']]],
-  ['gyro_5fout_5',['GYRO_OUT',['../classMPU6050.html#ac507eace2ff64cc4f57e1900314de048',1,'MPU6050']]]
+  ['main_0',['main',['../main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4',1,'main.cpp']]],
+  ['main_2ecpp_1',['main.cpp',['../main_8cpp.html',1,'']]],
+  ['mpu6050_2',['mpu6050',['../classMPU6050.html',1,'MPU6050'],['../classMPU6050.html#ab9eaa58bc4f33ea9d0d6a0b32c05c6e6',1,'MPU6050::MPU6050()']]],
+  ['mpu6050_2ecpp_3',['MPU6050.cpp',['../MPU6050_8cpp.html',1,'']]],
+  ['mpu6050_2eh_4',['MPU6050.h',['../MPU6050_8h.html',1,'']]]
 ];

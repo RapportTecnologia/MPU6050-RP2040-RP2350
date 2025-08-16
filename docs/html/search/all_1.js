@@ -1,7 +1,5 @@
 var searchData=
 [
-  ['accel_5fconfig_0',['ACCEL_CONFIG',['../classMPU6050.html#a9d128db055814d31194985bbd0b8dfdc',1,'MPU6050']]],
-  ['accel_5fout_1',['ACCEL_OUT',['../classMPU6050.html#a5dab2a2207a114cf5c479ef86505bce4',1,'MPU6050']]],
-  ['addr_2',['addr',['../classMPU6050.html#ac1db93afeef27f8dd7d21bb5a068ea24',1,'MPU6050']]],
-  ['available_3',['available',['../classI2C.html#a787172b1d9e36667c5b2b2ba9cd3cb64',1,'I2C']]]
+  ['baud_5frate_0',['BAUD_RATE',['../main_8cpp.html#ad4455691936f92fdd6c37566fc58ba1f',1,'main.cpp']]],
+  ['begin_1',['begin',['../classMPU6050.html#aebeb4a3b38faee9aba8f011d33165a17',1,'MPU6050']]]
 ];

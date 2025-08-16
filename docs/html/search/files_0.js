@@ -1,5 +1,6 @@
 var searchData=
 [
-  ['i2c_2ecpp_0',['I2C.cpp',['../I2C_8cpp.html',1,'']]],
-  ['i2c_2eh_1',['I2C.h',['../I2C_8h.html',1,'']]]
+  ['main_2ecpp_0',['main.cpp',['../main_8cpp.html',1,'']]],
+  ['mpu6050_2ecpp_1',['MPU6050.cpp',['../MPU6050_8cpp.html',1,'']]],
+  ['mpu6050_2eh_2',['MPU6050.h',['../MPU6050_8h.html',1,'']]]
 ];

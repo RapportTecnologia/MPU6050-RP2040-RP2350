@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>MPU6050-RP2040-RP2350: MPU6050/MPU6050.h File Reference</title>
+<title>MPU6050-RP2040-RP2350: MPU6050 Directory Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -73,38 +73,20 @@ $(function() {
 </div>
 </div><!-- top -->
 <div class="header">
-  <div class="summary">
-<a href="#nested-classes">Classes</a>  </div>
-  <div class="headertitle"><div class="title">MPU6050.h File Reference</div></div>
+  <div class="headertitle"><div class="title">MPU6050 Directory Reference</div></div>
 </div><!--header-->
 <div class="contents">
-
-<p>Driver de alto nível para o sensor inercial <a class="el" href="classMPU6050.html" title="Classe que encapsula o acesso ao sensor MPU6050 via I2C.">MPU6050</a> usando o proxy I2C.  
-<a href="#details">More...</a></p>
-<div class="textblock"><code>#include &lt;cstdint&gt;</code><br />
-</div>
-<p><a href="MPU6050_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
-Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMPU6050.html">MPU6050</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Classe que encapsula o acesso ao sensor <a class="el" href="classMPU6050.html" title="Classe que encapsula o acesso ao sensor MPU6050 via I2C.">MPU6050</a> via I2C.  <a href="classMPU6050.html#details">More...</a><br /></td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="files" name="files"></a>
+Files</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top"><span class="icondoc"></span>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="MPU6050_8cpp.html">MPU6050.cpp</a></td></tr>
+<tr class="memdesc:MPU6050_8cpp"><td class="mdescLeft">&#160;</td><td class="mdescRight">Implementação do driver do sensor <a class="el" href="classMPU6050.html" title="Classe que encapsula o acesso ao sensor MPU6050 via I2C.">MPU6050</a> utilizando o proxy I2C. <br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMPU6050_1_1VECT__3D.html">MPU6050::VECT_3D</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Estrutura para representar um vetor 3D (x, y, z).  <a href="structMPU6050_1_1VECT__3D.html#details">More...</a><br /></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top"><a href="MPU6050_8h_source.html"><span class="icondoc"></span></a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="MPU6050_8h.html">MPU6050.h</a></td></tr>
+<tr class="memdesc:MPU6050_8h"><td class="mdescLeft">&#160;</td><td class="mdescRight">Driver de alto nível para o sensor inercial <a class="el" href="classMPU6050.html" title="Classe que encapsula o acesso ao sensor MPU6050 via I2C.">MPU6050</a> usando o proxy I2C. <br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>Driver de alto nível para o sensor inercial <a class="el" href="classMPU6050.html" title="Classe que encapsula o acesso ao sensor MPU6050 via I2C.">MPU6050</a> usando o proxy I2C. </p>
-<p>Este arquivo define a classe <code><a class="el" href="classMPU6050.html" title="Classe que encapsula o acesso ao sensor MPU6050 via I2C.">MPU6050</a></code>, responsável por configurar o sensor, efetuar leituras de aceleração, giroscópio e temperatura, comunicando-se via a classe proxy <code>I2C</code> (ver <code>I2C/I2C.h</code>).</p>
-<p>Fluxo típico de uso:</p><ul>
-<li>Criar uma instância de <code>I2C</code> parametrizada com a instância do periférico e pinos SDA/SCL</li>
-<li>Chamar <code>I2C::begin()</code> e opcionalmente <code>I2C::setClock()</code></li>
-<li>Instanciar <code><a class="el" href="classMPU6050.html" title="Classe que encapsula o acesso ao sensor MPU6050 via I2C.">MPU6050</a></code> passando o ponteiro para <code>I2C</code></li>
-<li>Chamar <code><a class="el" href="classMPU6050.html#aebeb4a3b38faee9aba8f011d33165a17" title="Inicializa o sensor e aplica a configuração padrão.">MPU6050::begin()</a></code></li>
-<li>Ler dados com <code>getAccelleration()</code>, <code>getGyroscope()</code> e <code>getTemp()</code> </li>
-</ul>
-</div></div><!-- contents -->
+</div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
 Generated by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8

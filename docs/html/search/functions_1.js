@@ -1,5 +1,7 @@
 var searchData=
 [
-  ['begin_0',['begin',['../classMPU6050.html#aebeb4a3b38faee9aba8f011d33165a17',1,'MPU6050::begin()'],['../classI2C.html#ae082806c14689b4dd5a4068a84ab3fac',1,'I2C::begin()']]],
-  ['begintransmission_1',['beginTransmission',['../classI2C.html#ae5e5ad67729d4ef1db5966f45b76b64c',1,'I2C']]]
+  ['getaccelleration_0',['getAccelleration',['../classMPU6050.html#a74b7f69a847c53b0092911d907de8790',1,'MPU6050']]],
+  ['getgyroscope_1',['getGyroscope',['../classMPU6050.html#a002ff08a30fc3ec86ded844f90077b10',1,'MPU6050']]],
+  ['getid_2',['getId',['../classMPU6050.html#a37d2e760e606911620f8e2af06c881c9',1,'MPU6050']]],
+  ['gettemp_3',['getTemp',['../classMPU6050.html#a461efabbf6022dd3d4a8f1483a4a0bdc',1,'MPU6050']]]
 ];

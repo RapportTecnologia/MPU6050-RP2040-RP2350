@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['available_0',['available',['../classI2C.html#a787172b1d9e36667c5b2b2ba9cd3cb64',1,'I2C']]]
+  ['begin_0',['begin',['../classMPU6050.html#aebeb4a3b38faee9aba8f011d33165a17',1,'MPU6050']]]
 ];

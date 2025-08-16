@@ -1,6 +1,5 @@
 var searchData=
 [
-  ['i2c_0',['i2c',['../classMPU6050.html#a24ec050421b093e4e945923c9eccd237',1,'MPU6050']]],
-  ['i2c_5faddr_1',['I2C_ADDR',['../classMPU6050.html#a2604c81a87a29e6070ff25114a3e8f92',1,'MPU6050']]],
-  ['id_2',['id',['../classMPU6050.html#a2db376463de3c167d29ff2c6f0379005',1,'MPU6050::ID'],['../classMPU6050.html#aee2be1f0ba20c1386ef69cc56d59e92e',1,'MPU6050::id']]]
+  ['pwr_5fmgmt_5f1_0',['PWR_MGMT_1',['../classMPU6050.html#ab25be5136c64bc4085b365601ebe3823',1,'MPU6050']]],
+  ['pwr_5fmgmt_5f2_1',['PWR_MGMT_2',['../classMPU6050.html#a3c44a46e7896b18ac5499db1ce990432',1,'MPU6050']]]
 ];
