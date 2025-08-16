@@ -38,7 +38,7 @@ pico_sdk_init()
 add_executable(MPU6050 
         main.cpp 
         MPU6050/MPU6050.cpp
-        ../I2C/I2C.cpp
+        ../I2C-RP2040-RP2350/I2C.cpp
 )
 pico_set_program_name(MPU6050 "MPU6050")
 pico_set_program_version(MPU6050 "0.1")
@@ -55,7 +55,7 @@ target_link_libraries(MPU6050
 target_include_directories(MPU6050 PRIVATE
         ${CMAKE_CURRENT_LIST_DIR}
         ${CMAKE_CURRENT_LIST_DIR}/MPU6050
-        ${CMAKE_CURRENT_LIST_DIR}/../I2C
+        ${CMAKE_CURRENT_LIST_DIR}/../I2C-RP2040-RP2350
 )
 
 # Add any user requested libraries
