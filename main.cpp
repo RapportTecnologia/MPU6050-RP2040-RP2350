@@ -59,7 +59,7 @@ int main()
   while(1) {
     sleep_ms(2000);
     sensor.getAccelleration(&data);
-    printf ("Aceleracao X:%.2f Y:%.2f Z:%.2f\n", data.x, data.y, data.z);
+    printf ("Aceleração X:%.2f Y:%.2f Z:%.2f\n", data.x, data.y, data.z);
     sensor.getGyroscope(&data);
     printf ("Giroscópio X:%.2f Y:%.2f Z:%.2f\n", data.x, data.y, data.z);
     printf ("Temperatura: %.2f\n", sensor.getTemp());
