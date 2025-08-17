@@ -1,4 +1,25 @@
+
+## Autores e Colaboradores
+
+- Carlos Delfino — consultoria@carlosdelfino.eti.br — GitHub: [@carlosdelfino](https://github.com/carlosdelfino)
+
 # MPU6050-RP2040-RP2350
+
+## Como obter este módulo (via workspace principal)
+
+Para garantir que as dependências compartilhadas (ex.: `../I2C`, mocks, etc.) sejam resolvidas automaticamente, clone o repositório raiz (monorepo) com submódulos:
+
+```bash
+git clone --recurse-submodules https://github.com/RapportTecnologia/Sensores_e_Atuadores_do_Kit_BitDogLab.git Sensores_e_Atuadores_do_KIT
+cd Sensores_e_Atuadores_do_KIT
+git submodule update --init --recursive
+```
+
+Atualizar submódulos (quando aplicável):
+
+```bash
+git submodule update --remote --merge --recursive
+```
 
 Projeto de exemplo e driver do sensor inercial MPU6050 (acelerômetro + giroscópio) para a plataforma Raspberry Pi Pico (RP2040/RP2350), utilizando um proxy I2C simples (estilo Arduino Wire) para abstrair o acesso ao hardware.
 
@@ -71,6 +92,10 @@ Na pasta `MPU6050-RP2040-RP2350/` execute:
 doxygen Doxyfile
 ```
 A documentação HTML é gerada em `docs/html/index.html`.
+
+## Documentação
+
+Este módulo possui instruções de geração de documentação via Doxygen (ver seção acima). Alternativamente, no monorepo você pode gerar a documentação consolidada a partir do `Doxyfile` da raiz.
 
 ## Licença
 Este diretório inclui um arquivo `LICENSE` (CC0 1.0) com os termos. Veja também o arquivo `LICENSE` na raiz do repositório.
