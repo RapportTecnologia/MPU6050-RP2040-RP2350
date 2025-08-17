@@ -1,8 +1,4 @@
 
-## Autores e Colaboradores
-
-- Carlos Delfino — consultoria@carlosdelfino.eti.br — GitHub: [@carlosdelfino](https://github.com/carlosdelfino)
-
 # MPU6050-RP2040-RP2350
 
 ## Como obter este módulo (via workspace principal)
@@ -103,3 +99,7 @@ Este diretório inclui um arquivo `LICENSE` (CC0 1.0) com os termos. Veja també
 ## Créditos
 - Baseado no Pico SDK da Raspberry Pi e exemplos da comunidade.
 - Estrutura do proxy I2C inspirada na API `Wire` (Arduino) para facilitar portabilidade.
+
+## Autores e Colaboradores
+
+- Carlos Delfino — consultoria@carlosdelfino.eti.br — GitHub: [@carlosdelfino](https://github.com/carlosdelfino)
